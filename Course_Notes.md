@@ -1,9 +1,11 @@
 # Coursera Compilers
 ## Section 01 - Introduction
-### Part 01
+### Part 01 - Introduction
 * Introduction - Welcome to class
+* Formula Transformation (a.k.a. FORTRAN)
+ * ~mind blown~
 
-### Part 02
+### Part 02 - Structure of a Compiler
 * A compiler has 5 major phases - Using the English language as an example these phases could be described as such.
   * Lexical Analysis
     * Recognize the words
@@ -35,11 +37,62 @@
 * Throughout history of compilers there has been a different emphasis on each one of these major phases
   * Using the first letter of each major phase we can demonstrate it as such
   * "In the old days" 
-    * [   L   ][   P   ][S][   O   ][   CG   ]
+    * [&nbsp;&nbsp;&nbsp;L&nbsp;&nbsp;&nbsp;][&nbsp;&nbsp;&nbsp;P&nbsp;&nbsp;&nbsp;][S][&nbsp;&nbsp;&nbsp;O&nbsp;&nbsp;&nbsp;][&nbsp;&nbsp;&nbsp;CG&nbsp;&nbsp;]
     * Not much effort was put in for the semantic analyis phase
   * Modern (2016)
-    * [L][P][   S   ][       O       ][CG]
+    * [L][P][&nbsp;&nbsp;&nbsp;S&nbsp;&nbsp;&nbsp;][&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;O&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;][CG]
     * Lexing, Parsing, and Code Generation are understood very well
     * Semantic Analysis and Optimization are the main efforts
     
-### Part 03
+### Part 03 - The Economy of Programming Languages
+* Why are there so many programming languages?
+  * There are many different domains each with different requirements 
+    * Scientific Computing  
+      * Requires/Values
+        * floating point support
+        * array support
+        * array operations
+        * parallelism for performance
+        * etc
+      * Language Example
+        * FORTRAN
+    * Business Applications
+      * Requires/Values
+        * persistence
+        * report generation
+        * data analysis
+      * Language Example
+        * SQL
+    * Systems Programming
+      * Requires/Values
+        * control of resources
+        * real-time constraints
+      * Language Example
+        * C/C++
+* Why are there new programming languages?
+  * General observations
+    * Widely used languages are slow to change
+      * Affects programmers who are used to the tool
+      * Requires more training
+      * Hard to change built-in constructs
+    * Easy to start a new language
+      * Basically the opposite of widely used languages.
+    * Languages are used to fill voids in technology
+      * Done in order to make it so that productivity enabled
+    * New languages tend to look like old languages
+      * Economic benefit of reducing training costs
+        * Easy to go from C++ to Java
+        * Hard to go from C++ to Haskell :(
+  * What is a good programming language
+    * There is no universally accepted metric for lanuage design
+      * Very subjective process
+    * Inflammatory Statment
+      * "A good language is one people use"
+        * Not good because people use sub-optimal solutions all the time
+        * Is visual basic the best language? Nah.
+
+### Summary
+* Appliation domains have conflicting needs
+  * It is hard to design a one-size-fits-all solution
+* Programmer training is the dominant cost for a programming language
+  * Often easier to design a new language, rather than try to move an entire communicty of programmers to those new applications
