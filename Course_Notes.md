@@ -96,3 +96,37 @@
   * It is hard to design a one-size-fits-all solution
 * Programmer training is the dominant cost for a programming language
   * Often easier to design a new language, rather than try to move an entire communicty of programmers to those new applications
+
+## Section 02 - Classroom Object Oriented Language (COOL)
+### Part 01
+* Classroom Object Oriented Language (COOL)
+  * Program language with the specific goal of compiler writing
+  * Compiles to cool programs
+  * General Features
+    * Abstraction 
+    * Static typing
+    * Reuse (Inheritance)
+    * Memory management
+  * Compiles to MIPS assembly language
+  * Example program - example.cl
+```cool
+// Example 01
+class Main (
+  i : IO <- new IO;
+  main():Int { { i.out_string("Hello World!\n"); 1; } };
+);
+
+// Example 02
+class Main (
+  main():Object { (new IO).out_string("Hello World!\n") };
+);
+
+// Example 03
+class Main inhertis IO (
+  main():Object { out_string("Hello World!\n") };
+);
+```
+  * Compile using coolc
+```bash
+coolc example.cl
+```
