@@ -1,7 +1,7 @@
 # Class Notes
 ## Overview
 
-This is where you can find the class notes that have been accrued.
+This is where you can find quick links to coursee artifacts.
 
 - [Week 01]
 
