@@ -14,3 +14,5 @@ This is where you can locate docker images in order to quickly test and validate
             - https://lagunita.stanford.edu/courses/Engineering/Compilers/Fall2014/6b750292e90d4950b895f621a5671b49/
         - Docker Hub URL
             - https://hub.docker.com/r/hugbot/stanford_lagunita_cs1_compilers_base/
+        - Pull from docker hub
+            - docker pull hugbot/stanford_lagunita_cs1_compilers_base
