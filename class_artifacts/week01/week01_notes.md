@@ -137,7 +137,6 @@ coolc example.cl
 - Let Expressions
   - Allow the declarations of variables to be bound
   - Scoping allows multiple let declarations use preceding let decorations
-
 ```cool
 // hello has no access to world and it has no acces to newline
 // world has and has access to hello, but it has no access to newline 
