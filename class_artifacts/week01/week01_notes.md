@@ -137,7 +137,7 @@ coolc example.cl
 - Let Expressions
   - Every declaration except for the final assignment should be comma terminated
   - Allows the declarations of variables to be bound
-  - Scoping allows multiple let declarations use preceding let decorations
+  - Scoping allows multiple let declarations use preceding let decorations 
   - Example
       - hello has no access to world and it has no acces to newline
       - world has and has access to hello, but it has no access to newline 
@@ -149,6 +149,19 @@ coolc example.cl
   in
       out_string(hello.concat(world.concat(newline)))
   ```
+- Returning a string type signature from an assignment
+    ```cool
+    case item of
+        i: Int => i2a(1);
+        s: String => s;
+        o: Object => { abort(); ""; };
+    esac
+    ```
+- Compiling and Running Examples
+    - coolc section02part03example01.cl && spim section02part03example01.s
+    - coolc section02part03example02.cl && spim section02part03example02.s
+    - coolc section02part03example03.cl ~/cool/examples/atoi.cl && spim section02part03example03.s
+    - coolc section02part03example04.cl ~/cool/examples/atoi.cl && spim section02part03example04.s
 
 
 
