@@ -135,19 +135,20 @@ coolc example.cl
 
 - See [cool_code] for code samples
 - Let Expressions
-  - Allow the declarations of variables to be bound
-  - Scoping allows multiple let declarations use preceding let decorations
-```cool
-// hello has no access to world and it has no acces to newline
-// world has and has access to hello, but it has no access to newline 
-// newline has access to hello and it has access to world
-let hello: String <- "Hello ",
-    world: String <- "World!",
-    newline: String <- "\n"
-in
-    out_string(hello.concat(world.concat(newline)))
-```
   - Every declaration except for the final assignment should be comma terminated
+  - Allows the declarations of variables to be bound
+  - Scoping allows multiple let declarations use preceding let decorations
+  - Example
+  ```cool
+  // hello has no access to world and it has no acces to newline
+  // world has and has access to hello, but it has no access to newline 
+  // newline has access to hello and it has access to world
+  let hello: String <- "Hello ",
+      world: String <- "World!",
+      newline: String <- "\n"
+  in
+      out_string(hello.concat(world.concat(newline)))
+  ```
 
 
 
