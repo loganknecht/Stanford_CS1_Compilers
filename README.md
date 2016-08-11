@@ -27,4 +27,6 @@ make
 
 # Class Notes
 
+Please see the [class_notes] section to see the notes taken during this course.
+
 [class_notes]: class_notes/README.md
