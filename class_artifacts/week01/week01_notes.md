@@ -1,4 +1,4 @@
-# Coursera Compilers
+# Stanford Compilers Week 01 Notes
 ## Section 01 - Introduction
 ### Part 01 - Introduction
 * Introduction - Welcome to class
