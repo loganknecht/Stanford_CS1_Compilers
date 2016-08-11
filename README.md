@@ -1,5 +1,5 @@
-# Coursera-Compilers
-This is the repo used to house information for the coursera compiler course work.
+# Stanford_CS1_Compilers
+This is the repo used to house information for the Stanford compilers course work.
 
 ## Course Link
 
