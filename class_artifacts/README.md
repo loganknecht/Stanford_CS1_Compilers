@@ -1,4 +1,4 @@
-# Class Notes
+# Class Artifacts
 ## Overview
 
 This is where you can find quick links to coursee artifacts.
