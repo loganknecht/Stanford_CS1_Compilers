@@ -27,9 +27,13 @@ make
 
 # Class Notes
 
-Please see the [class_notes] section to see the notes taken during this course.
+Please see the [class_artifacts] section to see
 
-[class_notes]: class_notes/README.md
+- notes taken during this course
+- lesson code
+- assignments
+
+[class_artifacts]: class_artifacts/README.md
 
 # How to Run Cool Code
 ```
