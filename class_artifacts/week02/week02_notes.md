@@ -50,13 +50,13 @@ x=0;\n\twhile (x < 10) { \n \tx++; \n }
             - [keyword, "IF"][variable_name, "ELSE"][keyword, "THEN"][variable_name, "THEN = ELSE;"][keyword, "ELSE"][variable_name, "ELSE = THEN"]
     - C++
         - template syntax
-            - Foo<Bar>
+            - Foo`<Bar`>
         - stream syntax
-            - cin >> var;
+            - cin `>`> var;
         - The problem arises in nested templates
-            -  Foo<Bar<Bazz>>
+            -  Foo`<Bar`<Bazz`>`>
                 - Are the two right carets at the end a stream syntax command or a nested template?
                 - To make it so that it's clear that it's a template it would be to place a white space between the two carrets
-                    -  Foo<Bar<Bazz> >
+                    -  Foo`<Bar`<Bazz`> `>
 
 
