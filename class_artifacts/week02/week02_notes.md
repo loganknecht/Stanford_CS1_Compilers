@@ -53,9 +53,9 @@ x=0;\n\twhile (x < 10) { \n \tx++; \n }
             - Foo<Bar>
         - stream syntax
             - cin >> var;
-        - The problem arises in nest templates
+        - The problem arises in nested templates
             -  Foo<Bar<Bazz>>
-                - Are the to right carets at the end a stream syntax command or a nested template?
+                - Are the two right carets at the end a stream syntax command or a nested template?
                 - To make it so that it's clear that it's a template it would be to place a white space between the two carrets
                     -  Foo<Bar<Bazz> >
 
