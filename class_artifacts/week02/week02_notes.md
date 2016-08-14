@@ -43,20 +43,20 @@ x=0;\n\twhile (x < 10) { \n \tx++; \n }
     - FORTRAN (Formula Translation)
         - White space is insignifcant
             - Rule exists because the punch cards used to program were notorious for inserting random spaces
-            - VAR 1 == VA R1
+            - `VAR 1 == VA R1`
     - PL/I (Programming Language 1)
         - Keywords are not reserved
-            - IF ELSE THEN THEN = ELSE; ELSE ELSE = THEN
-            - [keyword, "IF"][variable_name, "ELSE"][keyword, "THEN"][variable_name, "THEN = ELSE;"][keyword, "ELSE"][variable_name, "ELSE = THEN"]
+            - `IF ELSE THEN THEN = ELSE; ELSE ELSE = THEN`
+            - `[keyword, "IF"][variable_name, "ELSE"][keyword, "THEN"][variable_name, "THEN = ELSE;"][keyword, "ELSE"][variable_name, "ELSE = THEN"]`
     - C++
         - template syntax
-            - Foo`<Bar`>
+            - `Foo<Bar>`
         - stream syntax
-            - cin `>`> var;
+            - `cin >> var;`
         - The problem arises in nested templates
-            -  Foo`<Bar`<Bazz`>`>
+            -  `Foo<Bar<Bazz>>`
                 - Are the two right carets at the end a stream syntax command or a nested template?
                 - To make it so that it's clear that it's a template it would be to place a white space between the two carrets
-                    -  Foo`<Bar`<Bazz`> `>
+                    -  `Foo<Bar<Bazz> >`
 
 
