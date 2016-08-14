@@ -1,5 +1,5 @@
-# Stanford Lagunita CS1 Compilers - Week 01 Notes
-## Section 01 - Introduction
+# Stanford Lagunita CS1 Compilers - Week 01 - Introduction and the Cool Programming Language
+## Section 01 
 ### Part 01 - Introduction
 * Introduction - Welcome to class
 * Formula Transformation (a.k.a. FORTRAN)
@@ -97,8 +97,8 @@
 * Programmer training is the dominant cost for a programming language
   * Often easier to design a new language, rather than try to move an entire communicty of programmers to those new applications
 
-## Section 02 - Classroom Object Oriented Language (COOL)
-### Part 02
+## Section 02 
+### Part 02 - Cool Example II
 * Classroom Object Oriented Language (COOL)
   * Program language with the specific goal of compiler writing
   * Compiles to cool programs
@@ -131,7 +131,7 @@ class Main inhertis IO (
 coolc example.cl
 ```
 
-### Part 03
+### Part 03 - Cool Example III
 
 - See [cool_code] for code samples
 - Let Expressions
