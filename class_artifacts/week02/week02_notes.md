@@ -60,3 +60,49 @@ x=0;\n\twhile (x < 10) { \n \tx++; \n }
                     -  `Foo<Bar<Bazz> >`
 
 
+### Part 03 - Regular Languages
+
+-Review
+    - The lexical structure of a programming language is a set of token classes.
+        - And each one of the token classes consists of some set of strings.
+- Regular Expressions are used to define a regular language.
+- Regular expressions are syntax (that's the expression that we write down), and it
+denotes a set of strings which is the regular language and that's the meaning of
+the regular expression. 
+- Regular Expression Base Cases
+    - 'c' is an expression. 
+        - Represents a language of only the character 'c'
+            - 'c' = {"c"}
+    - Εε  Epsilon
+        - This is another basic building block of regular expressions.
+        - Represents a language that has a single string - the empty string.
+            - ε = {""}
+- Regular Expression Compounds
+    - These are use to build other regular expressions from base regular expressions.
+    - Union
+        - A + B = { a | a ∈ A } ∪ { b | b ∈ B}
+        - A plus B which corresponds to the union of the languages A and B
+        - a such that a is in the language of A
+        - b such that b is in the language of B
+    - Concatenation
+        - AB = { ab | a ∈ A ^ b ∈ B }
+        - When performed this is the cross product of the two languages being concatenated
+        - The concatenation of A and B is equal to
+            - a is drawn from the language of A
+            - b is drawn from the language of B
+            - Both are combined
+    - Iteration
+        - A* = while i > = 0 ∪ A^i
+        - Called the Kleene Closure
+- Regular expressions are defined with some respect to an alphabet denoted as sigma (∑)
+    - Regular expressions have 5 allowed operations over an alphabet, the 2 base cases plus the 3 compound operations
+```
+    // R is the regular expression of either the empty set, a single character, or regular compound expressions
+    R = ∈
+      | 'c'
+      | R + R
+      | RR
+      | R*
+    Where c ∈ ∑
+```
+- ∑* (sigma star) - the strings of the alphabet integrated as many times as needed

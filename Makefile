@@ -10,6 +10,6 @@ dockerpull:
 	docker pull $(docker_image)
 
 loadimage:
-	docker run -it $(docker_image) bash
-	# docker run -v `(pwd)`:$(virtual_repo) -w $(virtual_repo) -it $(docker_image) bash
+	docker run -v `(pwd)`:$(virtual_repo) -w $(virtual_repo) -it $(docker_image) bash
+
 
