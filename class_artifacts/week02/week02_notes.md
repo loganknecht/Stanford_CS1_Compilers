@@ -106,3 +106,28 @@ the regular expression.
     Where c ∈ ∑
 ```
 - ∑* (sigma star) - the strings of the alphabet integrated as many times as needed
+
+### Part 04 - Formal Languages
+
+- Definition
+    - Let ∑ be a set of character (an alphabet)
+        -  A language over ∑ is a set of strings of characters selected from ∑
+- Meaning function
+    - L maps syntax to semantics
+```
+L(e) = M
+// e = regular expression
+// M = set of strings
+// e is mapped to M
+```
+
+```
+'c' = {"c"}
+ε = {""}
+A + B = { a | a ∈ A } ∪ { b | b ∈ B}
+AB = { ab | a ∈ A ^ b ∈ B }
+A* = while i > = 0 ∪ A^i
+
+// values on the left side of the = sign are an expression
+// values on the right side of the = sign are a set
+```
