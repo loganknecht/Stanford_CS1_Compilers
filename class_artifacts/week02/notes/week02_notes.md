@@ -131,3 +131,16 @@ A* = while i > = 0 ∪ A^i
 // values on the left side of the = sign are an expression
 // values on the right side of the = sign are a set
 ```
+
+
+# General Notes
+## DFA
+- DFAs must have 
+    - A finite set of states
+    - No ϵ-moves
+    - One transition per input per state
+
+## NFA
+- NFAs must have 
+    - Every DFA is also an NFA
+    - A finite set of states
