@@ -16,8 +16,14 @@ RUN apt-get install -y bison\
                        openjdk-6-jdk
 
 # Personal Customizations
-RUN apt-get install -y git-all\
-                       vim
+RUN apt-get upgrade -y &&\
+    apt-get install --fix-missing -y git-all\
+                                     vim\
+                                     make\
+                                     g++\
+                                     flex\
+                                     vim
+                                     csh
 
 RUN mkdir /usr/class
 RUN chown root /usr/class
