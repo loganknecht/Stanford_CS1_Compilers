@@ -22,7 +22,7 @@ RUN apt-get upgrade -y &&\
                                      make\
                                      g++\
                                      flex\
-                                     vim
+                                     vim\
                                      csh
 
 RUN mkdir /usr/class
