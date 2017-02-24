@@ -13,6 +13,11 @@ https://lagunita.stanford.edu/courses/Engineering/Compilers/Fall2014/info
         - https://docs.docker.com/docker-for-windows/
         - https://docs.docker.com/docker-for-mac/
         - Linux docker will be fine
+    - If using OSX 10.9 or older
+        - `brew install docker-machine`
+        - `docker-machine start`
+        - `docker-machine env`
+        - `eval "$(docker-machine env default)"`
 
 # Quick Launch
 
